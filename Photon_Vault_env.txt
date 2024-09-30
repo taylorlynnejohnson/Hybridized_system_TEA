@@ -1,0 +1,22 @@
+name: photon_env  
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-optimize
+  - pvlib
+  - geopy
+  - pytz
+  - timezonefinder
+  - requests
+  - plotly
+  - pip
+  - pip:
+      - numpy-financial 
+      - pyNSRDB
